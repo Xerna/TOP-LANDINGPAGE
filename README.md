@@ -1,2 +1,2 @@
 # TOP-LANDINGPAGE
-This is my solution to the landin-page, it will be about a fantasy guild 
+This is my solution to the landin-page, it will be about capybaras
