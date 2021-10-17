@@ -1,6 +1,7 @@
 body{
     color: #ffffff;
     background-color: #1F2937;
+    overflow-x: hidden;
 }
 img{
     width: 100%;
@@ -53,9 +54,12 @@ img{
 }
 #info-section{
     background-color: #F9FAF8;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
 }
 .info-section-tittle{
-    padding: 3rem 0;
+    padding: 2rem 0;
     text-align: center;
     color: #1F2937;
     font-size: 3.6rem;
@@ -63,5 +67,42 @@ img{
 }
 .articles{
     display: flex;
-    width: 75%;
+    width: 65%;
+    margin: 1rem auto;
+    gap: 1rem;
+    
+}
+.info-article{
+    margin: 0 auto;
+   
+}
+.info-article,.article-img{
+    width: 16rem;
+    height: 16rem;
+    object-fit: cover;
+    object-position: center center;
+} 
+.article-info{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #526c91;
+}
+.inspiring-quote{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 40rem;
+    font-style: italic;
+    font-size: 3.6rem;
+    color: #1F2937;
+}
+.autor{
+    display:inline-block;
+    text-align: right;
+    color: #526c91;
+    font-size: 3rem;
+    font-weight:100;
+    margin-right: 3rem;
 }
